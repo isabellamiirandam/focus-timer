@@ -7,7 +7,10 @@
 :root {
   font-size: 10px;
 
-  --bg-color: #121214;
+  --bg-color: hsl(194, 5%, 7%);
+  --text-color: hsl(194, 40%, 98%);
+  --primary-color: hsl(194, 100%, 63%);
+  --controls-bg-color: hsl(194, 0%, 14%);
 }
 
 body {
