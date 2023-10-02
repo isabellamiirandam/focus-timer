@@ -26,6 +26,8 @@ html:not(.light) .ph-moon {
   display: none;
 }
 
+
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -35,7 +37,7 @@ body {
   place-content: center;
 }
 
-#app {
+.app {
   display: grid;
   justify-items: center;
 }
@@ -44,13 +46,13 @@ body {
   display: flex;
 }
 
-#timer {
+.timer {
   font-size: 9.6rem;
   font-weight: bold;
   font-family: sans-serif;
 }
 
-#controls {
+.controls {
   margin-top: 1.6rem;
   padding: 2.2rem 4rem;
   gap: 1.6rem;
