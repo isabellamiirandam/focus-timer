@@ -18,7 +18,6 @@
 html.light {
   --text-color: hsl(194, 5%, 7%);
   --bg-color: hsl(194, 40%, 98%);
-  --controls-bg-color: hsl(var(--hue),0%,14%);
 }
 
 html.light .ph-sun,
