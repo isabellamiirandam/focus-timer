@@ -44,3 +44,13 @@ body {
   background-color: var(--controls-bg-color);
   border-radius: 999rem;
 }
+
+button {
+  background-color: transparent;
+  border: 0;
+  color: var(--primary-color);
+
+  cursor: pointer;
+
+  font-size: 6.4rem;
+}
