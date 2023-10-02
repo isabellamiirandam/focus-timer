@@ -54,3 +54,7 @@ button {
 
   font-size: 6.4rem;
 }
+
+.secondary {
+  color: var(--text-color);
+}
