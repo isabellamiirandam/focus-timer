@@ -5,12 +5,25 @@
 }
 
 :root {
+  --hue: 194;
   --bg-color: hsl(194, 5%, 7%);
   --text-color: hsl(194, 40%, 98%);
   --primary-color: hsl(194, 100%, 63%);
   --controls-bg-color: hsl(194, 0%, 14%);
+  --button-secondary: hsl (var(var(--hue),40%,98%))
 
   font-size: clamp(40%, 1% + 2vw, 62.5%);
+}
+
+html.light {
+  --text-color: hsl(194, 5%, 7%);
+  --bg-color: hsl(194, 40%, 98%);
+  --controls-bg-color: hsl(var(--hue),0%,14%);
+}
+
+html.light .ph-sun,
+html:not(.light) .ph-moon {
+  display: none;
 }
 
 body {
@@ -56,7 +69,7 @@ button {
 }
 
 .secondary {
-  color: var(--text-color);
+  color: var(--button-secondary);
 }
 
 /* controls */
