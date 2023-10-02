@@ -26,7 +26,14 @@ html:not(.light) .ph-moon {
   display: none;
 }
 
+.toggle-mode{
+  position: absolute;
+  right: 3.2rem;
+  top: 3.2rem;
+  font-size: 3.2rem;
 
+  color: var(--text-color);
+}
 
 body {
   background-color: var(--bg-color);
