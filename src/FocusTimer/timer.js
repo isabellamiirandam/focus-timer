@@ -6,6 +6,9 @@ export function countdown() {
     return
   }
 }
+console.log('iniciando')
+setTimeout(() => countdown(), 1000)
+
 
 export function updateDisplay(minutes, seconds) {
   minutes = minutes ?? state.minutes
